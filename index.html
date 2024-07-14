@@ -5,16 +5,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first Assignment</title>
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header > div{
+           
+            display: flex;
+            justify-content: space-between;
+            padding: 16px;
+
+        }
+        header > div > h3{
+            justify-self:end;
+        }
+        header > div > button{
+            height: fit-content;
+            border-radius: 8px;
+            border: none;
+            background-color: white;
+            padding: 12px;
+            margin: 0;
+            border: 1px solid #ddd ;
+        }
+        .banner{
+            text-align: center;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            background-image: url("/assets/Hero-bg.png") ;
+        }
+        .banner > img {
+            width: 240px;
+            height: 240px;
+        }
+        .banner > h3{
+            font-size: 48px;
+            font-weight: bolder;
+        }
+        .banner > p {
+            font-size: 16px;
+            color: #0D1321;
+        }
+        .banner > button {
+            background-color: #0D1321;
+            color: white;
+        }
+
+        .section1{
+            box-sizing: border-box;
+            padding-top: 80px;
+            padding-left: 97px;
+            padding-right: 97px;
+            padding-bottom: 80px;
+            background-color: #c7c7c7;
+            border-radius: 10px;
+            width: 946px;
+            text-align: center;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .web1{
+            display: flex;
+            border-radius: 8px;
+            width: 100%;
+            margin-right: 97px;
+            background-color: white;
+            margin-top: 5px;
+            margin-bottom: 10;
+       }
+        .left{
+            text-align: start;
+            padding: 15px;
+            width: 60%;
+        }
+        .item-iag1{
+            width: 35%;
+        }
+        .web-button{
+            background-color: white;
+            border: 1px solid rgb(128, 128, 128);
+            border-radius: 2px;
+            padding: 6px;
+        }
+        .section-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 148px;
+            padding-right: 148px;
+            
+        }
+    </style>
 </head>
 <body> 
     <header>
-
+    <div>
+  <h3>alamin</h3>
+  <button>Download resume</button>
+    </div>
+    <div class="banner">
+        <img src="assets/Group.png" alt="">
+        <h1>"In the near future, I hope to become a Developer."</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+        <button>Contact with me</button>
+    </div>
     </header>
     <main>
 
+
+        <div class="section-container">
+        <section class="section1">
+            <h3>Why Web Development ??</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque quas aperiam vero sint consequatur possimus iure dolorem natus. Earum eveniet possimus ipsam veritatis pariatur! Aliquid nihil dolorum odit quas cumque?</p>
+
+            <div class="web1">
+                <div class="left">
+                    <h3>I will Do Coding and Change The World</h3> 
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae tempore consequuntur tenetur. Deserunt, accusamus ab eum praesentium at excepturi ex molestiae nostrum dicta vitae saepe corporis, ut iste esse.</p>
+                    <button class="web-button">Learn more</button>
+                </div>
+                <img class="item-iag1" src="/assets/Layer_1.png" alt="">
+            </div>
+
+
+            
+        <div class="web1">
+            <img class="item-iag1" src="/assets/Layer_1.png" alt="">
+            <div class="left">
+                <h3>I will Do Coding and Change The World</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae tempore consequuntur tenetur. Deserunt, accusamus ab eum praesentium at excepturi ex molestiae nostrum dicta vitae saepe corporis, ut iste esse.</p>
+                <button class="web-button">Learn more</button>
+            </div>
+           
+        </div>
+
+
+        <div class="web1">
+            <div class="left">
+                <h3>I will Do Coding and Change The World</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae tempore consequuntur tenetur. Deserunt, accusamus ab eum praesentium at excepturi ex molestiae nostrum dicta vitae saepe corporis, ut iste esse.</p>
+                <button class="web-button">Learn more</button>
+            </div>
+            <img class="item-iag1" src="/assets/Layer_1.png" alt="">
+        </div>
+        </section>
+
+    </div>
+
+
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
