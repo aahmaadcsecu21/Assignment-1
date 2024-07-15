@@ -67,3 +67,293 @@
   padding: 30px;
 }
 /*section2*/
+.container{
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+.container .head{
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.container .para{
+  padding: 0 20px 30px 20px;
+  color: #e3e3e3;
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.video{
+  box-sizing: border-box;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+.video iframe{
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+/*section2*/
+.container-2{
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ffffff;
+  /* text-align: center; */
+  padding: 20px;
+}
+
+/*section-3*/
+#card-box{
+  width: 80%;
+  margin: 30px auto;
+  border: 1px solid black;
+}
+#card-box .head-2{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+}
+
+#card-box .container-2 .para-2{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+.card-container{
+  margin-top: 32px;
+  padding-left: 0;
+  width: 1144px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 15px;
+}
+.card{
+  max-width: 400px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.card .image-box img{
+  width: 56px;
+  height: 56px;
+  left: 8.16px;
+  top: 11px;
+  background: rgb(255, 76, 30);
+}
+.card h2{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+padding-top: 24px;
+padding-bottom: 8px;
+}
+.card p{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 24px;
+}
+.card>ul>li{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.card ul li{
+  text-decoration: none;
+}
+
+/*container3*/
+
+  .container-3{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid black;
+  }
+  .container-3 header{
+    text-align: center;
+    padding: 24px;
+  }
+  .container-3 .h1{
+    padding-top: 0;
+    padding-bottom: 24px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+  }
+  .container-3 .p1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+padding-bottom: 30px;
+  }
+  .cards-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 24px;
+  }
+  .card{
+    flex: 6;
+    border-radius: 16px;
+    padding: 20px;
+  }
+  .card .h2{
+    padding-top: 24px;
+    padding-bottom: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+   letter-spacing: 0%;
+  text-align: left;
+  }
+
+  .card .p2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+ .a2{
+    color: black;
+    text-decoration: underline;
+    font-weight: 700;
+    line-height: 19px;
+  }
+/*shared bg-color*/
+.bg-color1{
+  background: rgba(255, 76, 30, 0.05);
+}
+.bg-color2{
+  background: rgba(0, 76, 232, 0.05);
+}
+.bg-color3{
+  background: rgba(255, 223, 0, 0.05);
+}
+.bg-color4{
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+
+.cards-column{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.cards-column .card-c{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 40px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px; 
+  background: rgb(255, 255, 255);
+  text-align: left;
+  gap: 24px;
+}
+.cards-column .card-c.cd{
+  flex:6;
+}
+.cards-column .card-c img{
+  max-width: 100px;
+  margin-right: 20px;
+}
+.cards-column .card-c .cd h3{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.cards-column .card-c .cd p{
+  color: rgb(13, 19, 33);
+  width: 940px;
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+padding-top: 8px;
+padding-bottom: 24px;
+}
+.cards-column .card-c .cd a{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
